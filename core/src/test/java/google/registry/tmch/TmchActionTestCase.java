@@ -26,8 +26,6 @@ import google.registry.testing.BouncyCastleProviderRule;
 import google.registry.testing.FakeClock;
 import org.junit.Before;
 import org.junit.Rule;
-import org.junit.runner.RunWith;
-import org.junit.runners.JUnit4;
 import org.mockito.ArgumentCaptor;
 import org.mockito.Captor;
 import org.mockito.Mock;
@@ -35,7 +33,6 @@ import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
 
 /** Common code for unit tests of classes that extend {@link Marksdb}. */
-@RunWith(JUnit4.class)
 public class TmchActionTestCase {
 
   static final String MARKSDB_LOGIN_AND_PASSWORD = "lolcat:attack";
